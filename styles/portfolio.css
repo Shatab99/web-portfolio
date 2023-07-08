@@ -1,0 +1,51 @@
+/* nav related Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: aliceblue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+}
